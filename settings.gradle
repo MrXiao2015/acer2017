@@ -1,0 +1,8 @@
+include ':app', ':pmonitor', ':viewfinder-annotation', ':viewfinder', ':viewfinder-compiler'
+
+def init() {
+    println "gradleHomeDir = " + gradle.gradleHomeDir;
+    println "parent = " + gradle.parent;
+}
+
+init();

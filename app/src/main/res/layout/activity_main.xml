@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/main_ui"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="UI" />
+
+    <Button
+        android:id="@+id/main_tools"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="Tools" />
+
+    <Button
+        android:id="@+id/main_handler"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="Handler" />
+
+    <Button
+        android:id="@+id/main_drop_down"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="下拉关闭" />
+
+    <Button
+        android:id="@+id/main_aspectj"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="AspectJ" />
+
+    <Button
+        android:id="@+id/main_annotation_process"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="注解处理器" />
+
+    <Button
+        android:id="@+id/main_ormlite"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="ORMLite" />
+
+    <Button
+        android:id="@+id/main_draw"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="Draw" />
+</LinearLayout>
